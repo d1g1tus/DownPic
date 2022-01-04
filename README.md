@@ -27,3 +27,11 @@ So, for the __Setup__ you could create your own bat, to run launcher.py or use m
 ### MAIN FEATURES
 
 ![alt text](https://i.ibb.co/M99Tkb0/Main1.png)
+
+__1. Name, Var1 and Var2__ -> These are some input vars for the final user to use in order to classify their downloads. If non set they will not be added. Adittionally, these vars are used to name each download directory. By default any set of links will have a header with the following static vars:
+
+ - GROUP -> It is use only for the sake of order. 
+ - Picture -> This is the default name that will be assignated for folders and files in case no name is given. 
+ - Date -> This will be the final download folder, and where all the pictures will actually be downloaded.
+
+
