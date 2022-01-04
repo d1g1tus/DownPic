@@ -70,5 +70,48 @@ __10. Clear all registry__ -> This will delete ALL files inside /Logs/.
 
 __11. Exit__ -> If you encounter any strange or odd issue while closing DownPic, it should be prevented by using exit button. 
 
+------------------------
+
+### CONFIGURATION
+
+### Index
+
+![alt text](https://i.ibb.co/SP81Hx4/1.png)
+
+__1. Set Name Style + Select Format__ ->
+
+![alt text](https://i.ibb.co/CWJjQ0G/2.png)
+
+__2. Set File Type__ ->
+
+![alt text](https://i.ibb.co/xLyHr2j/3.png)
+
+__3. Open Folder__ ->
+
+![alt text](https://i.ibb.co/MMDggcD/4.png)
+
+### Paths
+
+ª[alt_text](https://i.ibb.co/xFxMHvJ/5.png)
+
+__1. Change Download Folder__ ->
+
+__2. Default Download Folder__ ->
+
+### Images
+
+ª[alt_text](https://i.ibb.co/WgvQ7J6/6.png)
+
+__1. Change DownPic Background ->
+
+__2. Open Images Folder__ ->
+
+### Help / About
+
+ª[alt_text](https://i.ibb.co/169z81Z/7.png)
+
+__1. Help - How to Guide__ ->
+
+__2. Licence__ ->
 
 
