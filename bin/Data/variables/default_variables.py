@@ -72,7 +72,9 @@ backgroundpic = "C:/Program files/DownPic/bin/Data/Images/background_main.png"
 defaultpicsfolder = "C:/Program files/DownPic/bin/Data/Images/"
 defaultpicsfolderos = '"C:/Program files/DownPic/bin/Data/Images/"'
 
+# Downloadpath has to be = "None" on first execution
 downloadpath = "None"
 # Name File Format
 name_format = " - "
 file_format = ".jpg"
+
