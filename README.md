@@ -146,16 +146,24 @@ __2. Licence__ ->
 
 It's a real fact. You could basically ignore DownPic features completely, and as long as you follow the Log.txt format rules you could still load your "homebrew" log file and DownPic still would be able to download everything you wrote down. This is particularly interesting if you want to share your ImgBB or personal album with someone, but you have too many images to be sent all together. 
 
+❗❗❗ Actually a future version of DownPic will include a Log file modification feature to avoid using any other program. 
+
 **NOTEPAD FORMAT**
 
 ![alt_text](https://i.ibb.co/chp8ZRQ/8.png)
 
  - *Line 2* -> GROUP is a static Value and has to remain unchanged. From there, you can add up to 4 different variables. You don't have to write the 4 of them, but "Picture" var has to include any kind of value for this will be used for naming the downloaded files. 
  
- - *Line 3* -> It is IMPERATIVE that you use the EXACT SAME NUMBER of "-", because otherwise it won't work.
+ - *Line 3* -> It is __IMPERATIVE__ that you use the __EXACT SAME NUMBER__ of "-", because otherwise it won't work.
 
-Here you have the Line -> ------------------------------------------------------------------------------
+❗❗❗ Here you have the Line -> ------------------------------------------------------------------------------
  
  - *Line 5* -> Here you can append as many urls as you want. Just 1 url per line. It does not matter if 1 link occupies for than 1 line.
  
  - *Line 6* -> It doesn't have to be exactly line 6, it could be any line. I just mention it to ensure that you add '\n' just on the last URL of your list. 
+
+This woud leed to a final result similar to this:
+
+![alt_text](https://i.ibb.co/9yfcZNX/9.png)
+
+And if you would like to keep adding headers just follow the same steps, and append all the information on the txt. DownPic will read the entire file and download any link!
