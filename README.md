@@ -26,11 +26,15 @@ __Running DownPic__ is quite simple. You only need to run python command on shel
 
 So, for the __Setup__ you could create your own bat, to run launcher.py or use my Setup.bat. 
 
---------------------------------------------------------
 -------------------------------------------------------
+
 # A SIMPLE HOW TO FOR DOWNPIC
 
+--------------------------------------------------------
+
 ### MAIN FEATURES
+
+--------------------------------------------------------
 
 ![alt text](https://i.ibb.co/M99Tkb0/Main1.png)
 
@@ -74,7 +78,11 @@ __11. Exit__ -> If you encounter any strange or odd issue while closing DownPic,
 
 ### CONFIGURATION
 
+--------------------------------------------------------
+
 ### Index
+
+--------------------------------------------------------
 
 ![alt text](https://i.ibb.co/SP81Hx4/1.png)
 
@@ -90,28 +98,43 @@ __3. Open Folder__ ->
 
 ![alt text](https://i.ibb.co/MMDggcD/4.png)
 
+--------------------------------------------------------
+
 ### Paths
 
-ª[alt_text](https://i.ibb.co/xFxMHvJ/5.png)
+--------------------------------------------------------
+
+![alt_text](https://i.ibb.co/xFxMHvJ/5.png)
 
 __1. Change Download Folder__ ->
 
 __2. Default Download Folder__ ->
 
+--------------------------------------------------------
+
 ### Images
 
-ª[alt_text](https://i.ibb.co/WgvQ7J6/6.png)
+--------------------------------------------------------
+
+![alt_text](https://i.ibb.co/WgvQ7J6/6.png)
 
 __1. Change DownPic Background ->
 
 __2. Open Images Folder__ ->
 
+--------------------------------------------------------
+
 ### Help / About
 
-ª[alt_text](https://i.ibb.co/169z81Z/7.png)
+--------------------------------------------------------
+
+![alt_text](https://i.ibb.co/169z81Z/7.png)
 
 __1. Help - How to Guide__ ->
 
 __2. Licence__ ->
+
+--------------------------------------------------------
+
 
 
