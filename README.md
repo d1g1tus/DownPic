@@ -7,9 +7,10 @@ DownPic is JUST a Download Manager. It is not intended to be used with any other
 
 DownPic basically is able to create a Log file, following precise specifications, write on it, read it, and download images urls storing them in New Folders created following every Header information. 
 
-
+--------------------------------------
 
 ### Downloading and Installing DownPic
+
 ----------------------------------------------------
 
 __1. Option__ -> *Download an Installer*
