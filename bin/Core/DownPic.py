@@ -4,7 +4,6 @@ import tkinter as tk
 import os
 import easygui
 import sys
-
 sys.path.append('C:/Program Files/DownPic/')
 
 from tkinter import messagebox
@@ -15,6 +14,7 @@ from pynput.mouse import Listener
 from bin.Data.variables import variables as vr
 from bin.Data.variables import default_variables as vrd
 
+
 current_file = vr.today_txt_file
 
 mf.declare_download_def_path()
@@ -23,7 +23,7 @@ mf.file_exist_check(vr.txt_file_name, vr.logfilespath)
 
 
 class FUNCIONES:
-    nomodlog = bool(False)
+    nomodlog = bool(False) 
 
     @staticmethod
     def dephvariables(link, eman, v1ar, v2ar, hoy):
@@ -36,9 +36,7 @@ class FUNCIONES:
         headervariables = [link, eman, v1ar, v2ar, hoy]
 
         if v1ar == 'Var1':
-          
             if v2ar == 'Var2':
-              
                 headervariables = [link, eman, hoy]
             else:
                 headervariables = [link, eman, v2ar, hoy]
@@ -71,18 +69,17 @@ class BOTONES:
         if FUNCIONES.nomodlog is False:
             if vr.pot == 1:
                 global fulla
-                vr.linklist.clear() 
-                mf.opt = bool(True)
+                vr.linklist.clear()  
+                vrd.opt = bool(True)
                 fulla = tk.Toplevel(root)
                 fulla.protocol("WM_DELETE_WINDOW", mf.disable_item)
                 fulla.geometry('300x100')
                 fulla.resizable(0, 0)
                 fulla.title('Link Collector')
-                frame = tk.Frame(fulla)
-                label = tkinter.Label(frame, text='Program waiting for link inputs')
+                label = tkinter.Label(fulla, text='Program waiting for link inputs')
                 label.pack()
                 vr.pot = 2
-                mf.mousewhisperer = bool(True)
+                vrd.mousewhisperer = bool(True)
                 Listener(on_click=mf.on_click).start()
             else:
                 pass
@@ -94,10 +91,10 @@ class BOTONES:
         if vr.pot == 2:
             global fulla
             fulla.destroy()
-            mf.mousewhisperer = bool(False)
-            mf.opt = bool(False)
+            vrd.mousewhisperer = bool(False)
+            vrd.opt = bool(False)
             vr.pot = 1
-            mf.write_links_txt(vr.linklist)  
+            mf.write_links_txt(vr.linklist) 
             FUNCIONES.print_txt()  
             BOTONES.todayslog()
         else:
@@ -166,13 +163,16 @@ class BOTONES:
     @staticmethod
     def setparameters():
         if FUNCIONES.nomodlog is False:
+
             link = 'GROUP'
             name = namebox.get()
             var1 = var1box.get()
             var2 = var2box.get()
+
             listavariables = FUNCIONES.dephvariables(link, name, var1, var2, vr.hoy)
             mf.write_group_header(listavariables)
             BOTONES.todayslog()
+
         else:
             ms.old_logs()
 
@@ -185,13 +185,15 @@ class BOTONES:
         root.destroy()
 
 root = tk.Tk()
-root.title('DownPic - Alpha 1.0')
+
+root.title('PicDown - Alpha 1.0')
+
 root.geometry(vr.mainwidowsize)
 root.resizable(0, 0)
 
 fuente = font.Font(weight='bold')
-
 backgroundpic = tk.PhotoImage(file=vr.backgroundpic)
+
 fotofondo = tk.Label(root, image=backgroundpic)
 
 msgbox = tk.StringVar()
@@ -210,6 +212,7 @@ msgboxframe = tk.Frame(root)
 nameboxframe = tk.Frame(root)
 var1boxframe = tk.Frame(root)
 var2boxframe = tk.Frame(root)
+
 
 scrollbar = tk.Scrollbar(msgboxframe)
 
@@ -259,3 +262,4 @@ clearallreg.place(x=400, y=450)
 buttonexit.place(x=525, y=416)
 
 root.mainloop()
+
