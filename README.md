@@ -44,4 +44,12 @@ __2. Set Parameters__ -> This button will append "Name, Var1 and Var2" as a head
 
 __3. Download__ -> This button will make a pop-up information window to appear, just for the user to know everything's correct and that downloading is about to begin. You have to press Accept in order to start downloading files. While the process is on DownPic will probably freeze until it's over, and another pop-up window appears to indicate that all files have been successfully retrieved. 
 
+__4. Start__ -> This button will make a pop-up information window to appear, just for the user to know that DownPic is currently listening to our mouse activity. The main usage of this feature has to follow this secuence:
+
+ - RIGH CLICK -> Press right mouse button on any picture you would like to download. It should work with almost any image, but if any issue arises I extremely recommend searchinf for the original source of the picture and then right clicking it. 
+ 
+ - LEFT CLICK -> Since you have to press firstly right click over an image, a context menu will have appeared. Now you have to press left mouse button over "
+ - Date -> This will be the final download folder, and where all the pictures will actually be downloaded.
+
+
 
