@@ -26,4 +26,4 @@ So, for the __Setup__ you could create your own bat, to run launcher.py or use m
 
 ### MAIN FEATURES
 
-![Image][https://ibb.co/mSSs5mW]
+![alt text](https://i.ibb.co/M99Tkb0/Main1.png)
