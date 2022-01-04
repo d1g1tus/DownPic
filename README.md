@@ -118,7 +118,7 @@ __2. Default Download Folder__ ->
 
 ![alt_text](https://i.ibb.co/WgvQ7J6/6.png)
 
-__1. Change DownPic Background ->
+__1. Change DownPic Background__ ->
 
 __2. Open Images Folder__ ->
 
@@ -136,5 +136,30 @@ __2. Licence__ ->
 
 --------------------------------------------------------
 
+# ❗❗❗ ⚠ SOME OTHER IMPORTANT CONSIDERATIONS ⚠ ❗❗❗
+
+--------------------------------------------------------
+
+### Editing the Log file with a notepad
+
+--------------------------------------------------------
+
+It's a real fact. You could basically ignore DownPic features completely, and as long as you follow the Log.txt format rules you could still load your "homebrew" log file and DownPic still would be able to download everything you wrote down. This is particularly interesting if you want to share your ImgBB or personal album with someone, but you have too many images to be sent all together. 
+
+**NOTEPAD FORMAT**
+
+1 Line -> '\n'
+2 Line -> GROUP - Picture - Var1 - Var2 - 2020-20-20
+3 Line -> ------------------------------------------------------------------------------
+4 Line -> '\n'
+5 Line -> URLS
+6 Line -> LAST URL + '\n'
 
 
+ - *Line 2* -> GROUP is a static Value and has to remain unchanged. From there, you can add up to 4 different variables. You don't have to write the 4 of them, but "Picture" var has to include any kind of value for this will be used for naming the downloaded files. 
+ 
+ - *Line 3* -> It is IMPERATIVE that you use the EXACT SAME NUMBER of "-", because otherwise it won't work.
+ 
+ - *Line 5* -> Here you can append as many urls as you want. Just 1 url per line. It does not matter if 1 link occupies for than 1 line.
+ 
+ - *Line 6* -> It doesn't have to be exactly line 6, it could be any line. I just mention it to ensure that you add '\n' just on the last URL of your list. 
