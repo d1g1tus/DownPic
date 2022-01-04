@@ -86,11 +86,11 @@ __11. Exit__ -> If you encounter any strange or odd issue while closing DownPic,
 
 ![alt text](https://i.ibb.co/SP81Hx4/1.png)
 
-__1. Set Name Style + Select Format__ ->
+__1. Set Name Style + Select Format__ -> This options are related with the final name format the downloaded picture will have. There are several options for you to choose. 
 
 ![alt text](https://i.ibb.co/CWJjQ0G/2.png)
 
-__2. Set File Type__ ->
+__2. Set File Type__ -> DownPic currently is not able to tell the difference amongst the files it downloads, so instead it names every file with just one single format. Currently it only works with jpg, png and gif. 
 
 ![alt text](https://i.ibb.co/xLyHr2j/3.png)
 
@@ -162,7 +162,7 @@ It's a real fact. You could basically ignore DownPic features completely, and as
  
  - *Line 6* -> It doesn't have to be exactly line 6, it could be any line. I just mention it to ensure that you add '\n' just on the last URL of your list. 
 
-This woud leed to a final result similar to this:
+This would lead to a final result similar to this:
 
 ![alt_text](https://i.ibb.co/9yfcZNX/9.png)
 
