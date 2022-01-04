@@ -11,13 +11,20 @@ I'm currently working on this feature. It will be available soon
 
 __2. Option__ -> *Download the whole repository as Zip*
 
+❗❗❗ ⚠ __Main installation path HAS TO BE the following ->__ "C:\Program Files\DownPic\" ⚠ ❗❗❗
+
+*Otherwise DownPic won't work. Converserly, you might change default paths on "Default_Variables" and "Variables" to fit your preferences*
+
 
 
 
 ### Set Up - Running DownPic
 -----------------------------------------------------
 
-__Running DownPic__ is quite simple. You only need to run python command on shell with the following default path: ("C:/Program Files/DownPic/Launcher - DownPic.py")
+__Running DownPic__ is quite simple. You only need to run python command on shell with the following default path: 
+
+"C:/Program Files/DownPic/Launcher - DownPic.py"
+
 So, for the __Setup__ you could create your own bat, to run launcher.py or use my Setup.bat. 
 
 --------------------------------------------------------
