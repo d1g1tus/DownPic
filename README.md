@@ -148,17 +148,13 @@ It's a real fact. You could basically ignore DownPic features completely, and as
 
 **NOTEPAD FORMAT**
 
-1 Line -> '\n'
-2 Line -> GROUP - Picture - Var1 - Var2 - 2020-20-20
-3 Line -> ------------------------------------------------------------------------------
-4 Line -> '\n'
-5 Line -> URLS
-6 Line -> LAST URL + '\n'
-
+![alt_text](https://i.ibb.co/chp8ZRQ/8.png)
 
  - *Line 2* -> GROUP is a static Value and has to remain unchanged. From there, you can add up to 4 different variables. You don't have to write the 4 of them, but "Picture" var has to include any kind of value for this will be used for naming the downloaded files. 
  
  - *Line 3* -> It is IMPERATIVE that you use the EXACT SAME NUMBER of "-", because otherwise it won't work.
+
+Here you have the Line -> ------------------------------------------------------------------------------
  
  - *Line 5* -> Here you can append as many urls as you want. Just 1 url per line. It does not matter if 1 link occupies for than 1 line.
  
