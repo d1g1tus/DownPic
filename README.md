@@ -1,5 +1,12 @@
 # DownPic - Alpha 1.0
 
+## IMPORTANT PREVIOUS CONSIDERATIONS 
+--------------------------------------
+
+DownPic is JUST a Download Manager. It is not intended to be used with any other purpouse. It is not intended to be used as a File Manager, so please do not ask any implementation related to such matters. 
+
+DownPic basically is able to create a Log file, following precise specifications, write on it, read it, and download images urls storing them in New Folders created following every Header information. 
+
 
 
 ### Downloading and Installing DownPic
@@ -167,6 +174,22 @@ This would lead to a final result similar to this:
 ![alt_text](https://i.ibb.co/9yfcZNX/9.png)
 
 And if you would like to keep adding headers just follow the same steps, and append all the information on the txt. DownPic will read the entire file and download any link!
+
+--------------------------------------------------------
+
+### DownPic + Refreshing Changed Data
+
+--------------------------------------------------------
+
+Sometimes you will have to restart DownPic, because otherwise the program will not be able to read changes applied to global vars and it might not apply the changes you have just done. However this does not occur everytime. 
+
+--------------------------------------------------------
+
+### DownPic - Downloading Restricted Content / Unreachable Urls
+
+--------------------------------------------------------
+
+DownPic has some in-built methods to bypass certain "anti-bots" requests online blockers. However it will not be able to download very specific URLS, such as those protected with passwords, or those which require a Key.
 
 --------------------------------------------------------
 
