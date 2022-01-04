@@ -9,19 +9,23 @@ import ssl
 import requests
 import pyperclip as clipboard
 
+
 from urllib import request
 from bin.Data.variables import variables as vr
 from bin.functions import config_main_functions as cfm
 from bin.Data.variables import default_variables as vrd
+
 
 global far
 
 ssl._create_default_https_context = ssl._create_unverified_context
 downloadpath = vr.downloadpath
 
+
 def folder_exist_check(search_path):
     if os.path.isdir(search_path) is False:
         os.mkdir(search_path)
+
 
 def file_exist_check(filename, search_path):
 
@@ -29,9 +33,11 @@ def file_exist_check(filename, search_path):
         if filename in files:
             pass
         else:
+            # Creamos un archivo nuevo en caso de que no exista
             file = search_path + filename
             f = open(file, 'w+')
             f.close()
+
 
 def write_group_header(lista):
     file_exist_check(vr.txt_file_name, vr.logfilespath)
@@ -83,14 +89,15 @@ def url_checker(url):
     list2 = ['h', 't', 't', 'p']
     j = -1
     asuma = 0
+    # Aquí comprobamos si lo que se ha copiado es un link o no
     for i in range(len(list2)):
         j = j + 1
-        if list1[i] == list2[j]: 
+        if list1[i] == list2[j]:  # Aquí contamos cuántas de las primeras 4 letras coinciden
             asuma = asuma + 1
-    if asuma == 4:   
-        if vr.firstlink is True:  
+    if asuma == 4:   # Si coinciden todas (list2) entonces es un link
+        if vrd.firstlink is True:   # al ser el primer link si o si se va a almacenar
             vr.linklist.append(url)
-            vr.firstlink = bool(False) 
+            vrd.firstlink = bool(False)  # apagamos condición de primer link
         else:
             if url in vr.linklist:  
                 easygui.msgbox(msg='Link was already in list. Not included...')
@@ -103,24 +110,28 @@ def url_checker(url):
 
 
 def on_click(x, y, button, pressed):
-    if vr.mousewhisperer is True:
-        if vr.mouseholder is False:
+    if vrd.mousewhisperer is True:
+        if vrd.mouseholder is False:
             if button == pynput.mouse.Button.right:
-                vr.rmcounter = vr.rmcounter + 1
-                if vr.rmcounter == 2:
-                    vr.rmcounter = 0
-                    vr.mouseholder = bool(True)  
+
+                vrd.rmcounter = vrd.rmcounter + 1
+                if vrd.rmcounter == 2:
+
+                    vrd.rmcounter = 0
+                    vrd.mouseholder = bool(True) 
 
         else:
             if button == pynput.mouse.Button.left:
-                vr.rlcounter = vr.rlcounter + 1
-                if vr.rlcounter == 2:
+
+                vrd.rlcounter = vrd.rlcounter + 1
+                if vrd.rlcounter == 2:
+
                     time.sleep(0.4)
                     link = clipboard.paste()
                     link = str(link)
-                    url_checker(link) 
-                    vr.rlcounter = 0
-                    vr.mouseholder = bool(False) 
+                    url_checker(link)  
+                    vrd.rlcounter = 0  
+                    vrd.mouseholder = bool(False)  
 
 
 def disable_item():
@@ -131,11 +142,11 @@ def download(sendero, name, urls):
     global current_dw_path
     for i in range(len(urls)):
         try:
-            fullname = str(name) + vr.name_format + str(i) + vr.file_format 
+            fullname = str(name) + vr.name_format + str(i) + vr.file_format  
             fullpathdownload = sendero + '/' + fullname  
-            urllib.request.urlretrieve(urls[i], fullpathdownload) 
+            urllib.request.urlretrieve(urls[i], fullpathdownload)  
         except:
-            fullname = str(name) + vr.name_format + str(i) + vr.file_format 
+            fullname = str(name) + vr.name_format + str(i) + vr.file_format  
             fullpathdownload = sendero + fullname
             r = requests.get(urls[i], stream=True)
             if r.status_code == 200:
@@ -219,20 +230,16 @@ def declare_download_def_path():
 
     variables_list = []
 
-    for i in range(len(defapyfile)): 
+    for i in range(len(defapyfile)):  # We make our py file readable without unicode
         variables_list.append(defapyfile[i].strip())
 
-    for j in range(len(variables_list)):
+    for j in range(len(variables_list)):  # We search for our variable string
         if variables_list[j] != basepath:
             pass
         else:  # If we find our string
             indice = variables_list.index(variables_list[j])
-            # print("tenemos Indice")
             with open(vrd.defa_vari_path, 'w+') as rw:
-                defapyfile[indice] = path  
+                defapyfile[indice] = path  # We stablish the specific line in pyfile and its value
                 rw.writelines(defapyfile)
                 rw.close()
             break
-
-
-
