@@ -42,6 +42,8 @@ __1. Name, Var1 and Var2__ -> These are some input vars for the final user to us
 
 __2. Set Parameters__ -> This button will append "Name, Var1 and Var2" as a header to the current log.txt file. You can have as many headers as you want, even if they hold no links. Folders will still be created but no file will be downloaded inside them.
 
+❗❗ If you don't want to use an specific var, simply do not change its content. In case you did, just write "Name, Var1, Var2" again. 
+
 __3. Download__ -> This button will make a pop-up information window to appear, just for the user to know everything's correct and that downloading is about to begin. You have to press Accept in order to start downloading files. While the process is on DownPic will probably freeze until it's over, and another pop-up window appears to indicate that all files have been successfully retrieved. 
 
 __4. Start__ -> This button will make a pop-up information window to appear, just for the user to know that DownPic is currently listening to our mouse activity. The main usage of this feature has to follow this secuence:
