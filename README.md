@@ -94,7 +94,7 @@ __2. Set File Type__ -> DownPic currently is not able to tell the difference amo
 
 ![alt text](https://i.ibb.co/xLyHr2j/3.png)
 
-__3. Open Folder__ ->
+__3. Open Folder__ -> Pretty self-explanatory. 
 
 ![alt text](https://i.ibb.co/MMDggcD/4.png)
 
@@ -106,9 +106,9 @@ __3. Open Folder__ ->
 
 ![alt_text](https://i.ibb.co/xFxMHvJ/5.png)
 
-__1. Change Download Folder__ ->
+__1. Change Download Folder__ -> This will change the Download Path DownPic follows. However, all images will always be downloaded in ./GROUP/
 
-__2. Default Download Folder__ ->
+__2. Default Download Folder__ -> This resets Download path to %USERPROFILE%/Downloads
 
 --------------------------------------------------------
 
@@ -118,9 +118,9 @@ __2. Default Download Folder__ ->
 
 ![alt_text](https://i.ibb.co/WgvQ7J6/6.png)
 
-__1. Change DownPic Background__ ->
+__1. Change DownPic Background__ -> Take into account that __ONLY PNG IMAGES WITH A 950x500 RES__ are accepted. You can use any other size but it won't fit. Use any online resource to change your Background resolution before adding it.
 
-__2. Open Images Folder__ ->
+__2. Open Images Folder__ -> Just a short cut to Images DownPic folder. This is NOT the DOWNLOADS folder. 
 
 --------------------------------------------------------
 
@@ -130,9 +130,9 @@ __2. Open Images Folder__ ->
 
 ![alt_text](https://i.ibb.co/169z81Z/7.png)
 
-__1. Help - How to Guide__ ->
+__1. Help - How to Guide__ -> This is one of the many possible ways in which you arrived here. 
 
-__2. Licence__ ->
+__2. Licence__ -> Pretty short disclaimer about DownPic's Licence
 
 --------------------------------------------------------
 
@@ -167,3 +167,23 @@ This would lead to a final result similar to this:
 ![alt_text](https://i.ibb.co/9yfcZNX/9.png)
 
 And if you would like to keep adding headers just follow the same steps, and append all the information on the txt. DownPic will read the entire file and download any link!
+
+--------------------------------------------------------
+
+# ❗❗❗ SOCIAL NETWORKS, WAYS OF CONTACT ❗❗❗
+
+--------------------------------------------------------
+
+Right now I only use Github. Use this platform to contact me if you have any doubt or if you want to collaborate. 
+
+--------------------------------------------------------
+
+# ❗❗❗ ⚠ LICENCE ⚠ ❗❗❗
+
+--------------------------------------------------------
+
+- You're only allowed to use this code privately. 
+- No lucrative use of any sort of this code is allowed
+- You can change it and use it in anyway you want, as long as you keep it private. 
+- I do not take any responsability in any change you may apply nor any unethical use.
+
