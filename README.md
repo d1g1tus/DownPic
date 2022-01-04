@@ -32,7 +32,7 @@ __Running DownPic__ is quite simple. You only need to run python command on shel
 
 "C:/Program Files/DownPic/Launcher - DownPic.py"
 
-So, for the __Setup__ you could create your own bat, to run launcher.py or use my Setup.bat. 
+So, for the __Setup__ you could create your own bat, to run launcher.py or use my Launcher.bat. 
 
 -------------------------------------------------------
 
