@@ -46,10 +46,11 @@ __3. Download__ -> This button will make a pop-up information window to appear, 
 
 __4. Start__ -> This button will make a pop-up information window to appear, just for the user to know that DownPic is currently listening to our mouse activity. The main usage of this feature has to follow this secuence:
 
- - RIGH CLICK -> Press right mouse button on any picture you would like to download. It should work with almost any image, but if any issue arises I extremely recommend searchinf for the original source of the picture and then right clicking it. 
+ - *RIGH CLICK* -> Press right mouse button on any picture you would like to download. It should work with almost any image, but if any issue arises I extremely recommend searchinf for the original source of the picture and then right clicking it. 
  
- - LEFT CLICK -> Since you have to press firstly right click over an image, a context menu will have appeared. Now you have to press left mouse button over "
- - Date -> This will be the final download folder, and where all the pictures will actually be downloaded.
+ - *LEFT CLICK* -> Since you have to press firstly right click over an image, a context menu will have appeared. Now you have to press left mouse button over "Copy Image URL". This will freeze DownPic for 0.4 seconds and append that link to the current Log.txt file. 
+
+Take into account that if you press right button randomly this secuence will be triggered anyway. If no url has been selected the program will ignore the input. If the latest used url is still on the clipboard DownPic will notify you that the link copied is already in list and will not be appended. 
 
 
 
