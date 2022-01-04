@@ -52,5 +52,21 @@ __4. Start__ -> This button will make a pop-up information window to appear, jus
 
 Take into account that if you press right button randomly this secuence will be triggered anyway. If no url has been selected the program will ignore the input. If the latest used url is still on the clipboard DownPic will notify you that the link copied is already in list and will not be appended. 
 
+__5. Stop__ -> This stops Mouse Listener and definately appends all urls to Log.txt file. If you press it twice a window will pop-up to prevent rewriting Log.txt file with the same links. If you want to make sure all urls are saved and to regain control of your mouse, press it. 
+
+__6. Configuration__ -> This runs a separated Configuration Window that will be completely explained further below. 
+
+__7. Export Current Log File__ -> A simple button to save the current log file that DownPic is displaying and keep it elsewhere. This also works with loaded log files. 
+
+__8. Today's Log__ -> Quickly Reload of Today's Log. It is also useful in case DownPic is having problems with Log.txt editing and you want to make sure what DownPic is displaying is what's actually written on Log.txt.
+
+__9. Load Registry__ -> This will load any Log file (any txt file in reality). Any editing feature will be blocked and you will only be able to read it, Download its content and Export it. 
+
+This feature, along with *Export Current Log File* are meant to be used as a way to share Logs between users and create a new easier way to share files. Instead of sending tons of pictures, you can simply send a txt and run DownPic. 
+
+__10. Clear all registry__ -> This will delete ALL files inside /Logs/. 
+
+__11. Exit__ -> If you encounter any strange or odd issue while closing DownPic, it should be prevented by using exit button. 
+
 
 
