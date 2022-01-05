@@ -103,6 +103,7 @@ class DOWNLOAD:
         print("///// -> Python successfully downloaded! Running Python installation\n")
         os.system("start C:/Users/Public/python.exe")
         os.system("pause")
+        os.remove("C:/Users/Public/python.exe")
 
     @staticmethod
     def download_python():
