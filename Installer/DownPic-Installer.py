@@ -132,44 +132,47 @@ class DOWNLOAD:
         shortcut.WindowStyle = 7
         shortcut.save()
 
-
 while True:
-    MESSAGES.print_main()
-    opt = int(input("    ////////// -> "))
-
-    if opt == 1:
-        MESSAGES.downloading_downpic()
-        git.Repo.clone_from(url, dirs)
-        print("\n ///// -> DownPic has been successfully downloaded!!!\n")
-        os.system("pause")
-        DOWNLOAD.download_python()
-        print("///// -> Python was successfully installated! \n")
-        os.system("pause")
-        os.system("cls")
-    if opt == 2:
-        DOWNLOAD.create_desktop_exe()
-        print("\n ///// -> Shortcut has been successfully created!!!!\n")
-        os.system("pause")
-        os.system("cls")
-    if opt == 3:
-        os.system("start https://github.com/d1g1tus/DownPic")
-        os.system("cls")
-    if opt == 4:
-        while True:
-            try:
-                opl = input("\nAre you sure you want to uninstall DownPic? y/n -> ")
-                if opl == "y":
-                    os.remove("C:/Program Files/DownPic")
-                    print("\n ////// DownPic has been successfully uninstalled!!")
-                    break
-                if opl == "n":
-                    break
-            except TypeError:
-                pass
-
-        os.system("pause")
-        os.system("cls")
-    if opt == 5:
-        break
-    else:
-        os.system("cls")
+    try:
+        MESSAGES.print_main()
+        opt = int(input("    ////////// -> "))
+    
+        if opt == 1:
+            MESSAGES.downloading_downpic()
+            git.Repo.clone_from(url, dirs)
+            print("\n ///// -> DownPic has been successfully downloaded!!!\n")
+            os.system("pause")
+            DOWNLOAD.download_python()
+            print("///// -> Python was successfully installated! \n")
+            os.system("pause")
+            os.system("cls")
+        if opt == 2:
+            DOWNLOAD.create_desktop_exe()
+            print("\n ///// -> Shortcut has been successfully created!!!!\n")
+            os.system("pause")
+            os.system("cls")
+        if opt == 3:
+            os.system("start https://github.com/d1g1tus/DownPic")
+            os.system("cls")
+        if opt == 4:
+            while True:
+                try:
+                    opl = input("\nAre you sure you want to uninstall DownPic? y/n -> ")
+                    if opl == "y":
+                        os.remove("C:/Program Files/DownPic")
+                        print("\n ////// DownPic has been successfully uninstalled!!")
+                        break
+                    if opl == "n":
+                        break
+                except TypeError:
+                    pass
+    
+            os.system("pause")
+            os.system("cls")
+        if opt == 5:
+            break
+        else:
+            os.system("cls")
+    
+    except TypeError:
+        pass
