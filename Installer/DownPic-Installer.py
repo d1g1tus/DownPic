@@ -176,3 +176,6 @@ while True:
     
     except TypeError:
         pass
+    except ValueError:
+        pass
+
